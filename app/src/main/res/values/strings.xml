@@ -28,5 +28,10 @@
     <string name="advance_search">Advance Search</string>
     <string name="popular_brands">POPULAR BRANDS</string>
     <string name="todo">TODO</string>
+    <string name="maruti_suzuki">Maruti Suzuki</string>
+    <string name="clone">:</string>
+    <string name="model">Model</string>
+    <string name="baleno">Baleno</string>
+    <string name="location">Location</string>
 
 </resources>
