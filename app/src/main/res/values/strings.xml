@@ -36,5 +36,6 @@
     <string name="bmw_the_vbx6">BMW THE VBX6</string>
     <string name="details"><u>Details</u></string>
     <string name="Description">The BMW X6 show car has been coated with the Vantablack variant VBx2, which was originally developed for the fields of architecture and science. This Vantablack variant has a total hemispherical reflectance (THR) of one percent and is therefore still considered “superblack”, but it provides at least a little surface reflection from every angle. The great advantage of the VBx2 material is that it can be sprayed on.</string>
+    <string name="send_offer">Send Offer</string>
 
 </resources>
