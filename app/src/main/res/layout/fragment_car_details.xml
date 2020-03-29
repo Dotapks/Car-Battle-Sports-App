@@ -109,6 +109,17 @@
             android:paddingRight="45dp"
             android:paddingBottom="36dp">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal"
+                android:text="@string/details"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/noto_sans" />
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -480,178 +491,167 @@
                     app:fontFamily="@font/noto_sans" />
             </TableRow>
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="4dp">
-
-                <TextView
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:lineSpacingExtra="14sp"
-                    android:text="@string/location"
-                    android:textColor="@color/colorPrimary"
-                    app:fontFamily="@font/noto_sans" />
-
-                <TextView
-
-                    android:layout_width="15dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_horizontal"
-                    android:text="@string/clone"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorPrimary"
-                    android:textStyle="bold"
-                    app:fontFamily="@font/noto_sans" />
-
-                <TextView
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Dhaka"
-                    android:textColor="@color/colorPrimary"
-                    app:fontFamily="@font/noto_sans" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="4dp">
-
-                <TextView
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:lineSpacingExtra="14sp"
-                    android:text="@string/location"
-                    android:textColor="@color/colorPrimary"
-                    app:fontFamily="@font/noto_sans" />
-
-                <TextView
-
-                    android:layout_width="15dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_horizontal"
-                    android:text="@string/clone"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorPrimary"
-                    android:textStyle="bold"
-                    app:fontFamily="@font/noto_sans" />
-
-                <TextView
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Dhaka"
-                    android:textColor="@color/colorPrimary"
-                    app:fontFamily="@font/noto_sans" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="4dp">
-
-                <TextView
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:lineSpacingExtra="14sp"
-                    android:text="@string/location"
-                    android:textColor="@color/colorPrimary"
-                    app:fontFamily="@font/noto_sans" />
-
-                <TextView
-
-                    android:layout_width="15dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_horizontal"
-                    android:text="@string/clone"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorPrimary"
-                    android:textStyle="bold"
-                    app:fontFamily="@font/noto_sans" />
-
-                <TextView
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Dhaka"
-                    android:textColor="@color/colorPrimary"
-                    app:fontFamily="@font/noto_sans" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="4dp">
-
-                <TextView
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:lineSpacingExtra="14sp"
-                    android:text="@string/location"
-                    android:textColor="@color/colorPrimary"
-                    app:fontFamily="@font/noto_sans" />
-
-                <TextView
-
-                    android:layout_width="15dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_horizontal"
-                    android:text="@string/clone"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorPrimary"
-                    android:textStyle="bold"
-                    app:fontFamily="@font/noto_sans" />
-
-                <TextView
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Dhaka"
-                    android:textColor="@color/colorPrimary"
-                    app:fontFamily="@font/noto_sans" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="4dp">
-
-                <TextView
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:lineSpacingExtra="14sp"
-                    android:text="@string/location"
-                    android:textColor="@color/colorPrimary"
-                    app:fontFamily="@font/noto_sans" />
-
-                <TextView
-
-                    android:layout_width="15dp"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_horizontal"
-                    android:text="@string/clone"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorPrimary"
-                    android:textStyle="bold"
-                    app:fontFamily="@font/noto_sans" />
-
-                <TextView
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Dhaka"
-                    android:textColor="@color/colorPrimary"
-                    app:fontFamily="@font/noto_sans" />
-            </TableRow>
-
         </TableLayout>
 
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/btn_oval"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:text="POSTED ON - 17 MARCH 2020"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/noto_sans" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_car_detail"
+            android:orientation="vertical"
+            android:paddingLeft="45dp"
+            android:paddingTop="36dp"
+            android:paddingRight="36dp"
+            android:paddingBottom="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal"
+                android:text="Description"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/noto_sans" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="1sp"
+                android:text="@string/Description"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                app:fontFamily="@font/noto_sans" />
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:padding="24dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_oval"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:paddingRight="25dp"
+                android:paddingBottom="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/shp_call" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="Call"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/noto_sans" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_oval"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:paddingRight="25dp"
+                android:paddingBottom="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/linearLayout4"
+                app:layout_constraintStart_toEndOf="@+id/linearLayout3"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/shp_call"
+                    app:srcCompat="@drawable/shp_discount" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="Offer"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/noto_sans" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_oval"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:paddingRight="25dp"
+                android:paddingBottom="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/shp_call"
+                    app:srcCompat="@drawable/shp_chat" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="Chat"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/noto_sans" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
 
 </ScrollView>
