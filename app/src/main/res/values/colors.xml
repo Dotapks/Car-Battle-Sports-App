@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--    custom theme navy    -->
 <resources>
-    <color name="colorPrimary">#031F3B</color>
-    <color name="colorPrimaryDark">#000000</color>
-    <color name="colorAccent">#03DAC5</color>
+
+    <!--    shadow    -->
+    <color name="shadow">#00000029</color>
+
+    <!--    main color    -->
+    <color name="white">#FFFFFF</color>
+    <color name="navy">#031F3B</color>
+    <color name="red">#C51539</color>
+    <color name="pink">#FB6B6B</color>
+    <color name="green">#18F360</color>
+    <color name="blue">#04407D</color>
+
 </resources>
